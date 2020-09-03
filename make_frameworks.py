@@ -17,10 +17,11 @@ class_getName.restype = c_char_p
 class_getName.argtypes = [c_void_p]
 
 frameworks = {}
+private_frameworks = {}
 
 for i in range(count):
     n = class_getName(buffer[i])
-    n = n.decode()
+    n = n.decode()   
     
     if n.startswith("_"):
         continue
@@ -33,18 +34,32 @@ for i in range(count):
         continue
     
     framework = bundle.bundleURL.lastPathComponent.split(".")[0]
+    
+    _frameworks = frameworks
+    
+    if "PrivateFrameworks" in bundle.bundleURL.path and framework != "UIKitCore":
+        _frameworks = private_frameworks
+    
+    if ".app" in bundle.bundleURL.path:
+        _frameworks = private_frameworks
+    
     if framework == "UIKitCore":
         framework = "UIKit"
     
     if framework not in frameworks:
-        frameworks[framework] = []
-    
-    frameworks[framework].append(n)
+        _frameworks[framework] = []
 
-for framework in frameworks:
-    with open(framework+".py", "w+") as f: 
-        code = """
-'''
+    _frameworks[framework].append(n)
+
+all = {**frameworks, **private_frameworks}
+
+for framework in all:
+    name = framework
+    if name in private_frameworks:
+        name = "_"+name
+
+    with open(name+".py", "w+") as f: 
+        code = """'''
 Classes from the '{}' framework.
 '''
     
@@ -62,7 +77,7 @@ def _Class(name):
     
     """.format(framework)
         
-        for _class in frameworks[framework]:
-            code += f"\n{_class} = _Class('{_class}')"
+        for _class in all[framework]:
+            code += f"\n{_class.split('.')[-1]} = _Class('{_class}')"
             
-        f.write(code)        
+        f.write(code)
