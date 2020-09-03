@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'QuickLook' framework.
 '''

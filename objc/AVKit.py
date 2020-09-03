@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'AVKit' framework.
 '''

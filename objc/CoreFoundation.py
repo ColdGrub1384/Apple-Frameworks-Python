@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'CoreFoundation' framework.
 '''
@@ -18,7 +17,6 @@ def _Class(name):
     
 CFPrefsDaemon = _Class('CFPrefsDaemon')
 CFPDSourceLookUpKey = _Class('CFPDSourceLookUpKey')
-NSFileSecurity = _Class('NSFileSecurity')
 CFPDSource = _Class('CFPDSource')
 CFPDContainerSource = _Class('CFPDContainerSource')
 CFPDCloudSource = _Class('CFPDCloudSource')
@@ -26,14 +24,15 @@ CFPDDataBuffer = _Class('CFPDDataBuffer')
 CFPDPurgeableBuffer = _Class('CFPDPurgeableBuffer')
 CFPDCFDataBuffer = _Class('CFPDCFDataBuffer')
 NSException = _Class('NSException')
+NSFileSecurity = _Class('NSFileSecurity')
 NSDateComponents = _Class('NSDateComponents')
 NSSharedKeySet = _Class('NSSharedKeySet')
 NSInvocation = _Class('NSInvocation')
 NSBlockInvocation = _Class('NSBlockInvocation')
 NSCache = _Class('NSCache')
-NSRunLoop = _Class('NSRunLoop')
 NSTaggedPointerStringCStringContainer = _Class('NSTaggedPointerStringCStringContainer')
 NSMethodSignature = _Class('NSMethodSignature')
+NSRunLoop = _Class('NSRunLoop')
 NSUserDefaults = _Class('NSUserDefaults')
 CFPrefsSource = _Class('CFPrefsSource')
 CFPrefsConfigurationFileSource = _Class('CFPrefsConfigurationFileSource')

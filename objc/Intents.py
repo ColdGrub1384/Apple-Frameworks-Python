@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'Intents' framework.
 '''
@@ -86,10 +85,8 @@ INDateComponentsRange = _Class('INDateComponentsRange')
 INImageBundle = _Class('INImageBundle')
 INHomeEntity = _Class('INHomeEntity')
 INImageFilePersistence = _Class('INImageFilePersistence')
-INVoiceShortcut = _Class('INVoiceShortcut')
 INActivity = _Class('INActivity')
 INVocabulary = _Class('INVocabulary')
-INJSONEncoderConfiguration = _Class('INJSONEncoderConfiguration')
 INRideCompletionStatus = _Class('INRideCompletionStatus')
 INDefaultCardTemplate = _Class('INDefaultCardTemplate')
 INAppTrust = _Class('INAppTrust')
@@ -110,7 +107,6 @@ INVocabularyUpdater = _Class('INVocabularyUpdater')
 INImageServiceRegistry = _Class('INImageServiceRegistry')
 INMediaItem = _Class('INMediaItem')
 INImageServiceConnection = _Class('INImageServiceConnection')
-INJSONEncoder = _Class('INJSONEncoder')
 INIntentResponseDescription = _Class('INIntentResponseDescription')
 INContactRelationship = _Class('INContactRelationship')
 INWidgetDescriptor = _Class('INWidgetDescriptor')
@@ -207,6 +203,9 @@ INResolveIntentParametersForwardingActionResponse = _Class('INResolveIntentParam
 INGetIntentParameterDefaultValueForwardingActionResponse = _Class('INGetIntentParameterDefaultValueForwardingActionResponse')
 INKeyImageExtraction = _Class('INKeyImageExtraction')
 INAppIntentDeliverer = _Class('INAppIntentDeliverer')
+INJSONEncoder = _Class('INJSONEncoder')
+INJSONEncoderConfiguration = _Class('INJSONEncoderConfiguration')
+INVoiceShortcut = _Class('INVoiceShortcut')
 INVoiceShortcutCenter = _Class('INVoiceShortcutCenter')
 INShortcut = _Class('INShortcut')
 INWatchdogTimer = _Class('INWatchdogTimer')

@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'CoreHaptics' framework.
 '''
@@ -16,7 +15,6 @@ def _Class(name):
         return None
     
     
-CHHapticEngine = _Class('CHHapticEngine')
 AdvancedPatternPlayer = _Class('AdvancedPatternPlayer')
 PatternPlayer = _Class('PatternPlayer')
 CHHapticPattern = _Class('CHHapticPattern')
@@ -36,3 +34,4 @@ CHMetricsPlayerData = _Class('CHMetricsPlayerData')
 HapticServerConfig = _Class('HapticServerConfig')
 CHDefaultHapticDeviceCapability = _Class('CHDefaultHapticDeviceCapability')
 CHHapticParameterAttributesImpl = _Class('CHHapticParameterAttributesImpl')
+CHHapticEngine = _Class('CHHapticEngine')

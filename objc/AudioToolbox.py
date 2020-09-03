@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'AudioToolbox' framework.
 '''
@@ -18,7 +17,6 @@ def _Class(name):
     
 AVHapticParameterCurveValue = _Class('AVHapticParameterCurveValue')
 AVHapticSequence = _Class('AVHapticSequence')
-AVHapticPlayer = _Class('AVHapticPlayer')
 AVHapticPlayerChannel = _Class('AVHapticPlayerChannel')
 AVHapticPlayerParameterCurve = _Class('AVHapticPlayerParameterCurve')
 AVHapticPlayerParameterCurveControlPoint = _Class('AVHapticPlayerParameterCurveControlPoint')
@@ -30,3 +28,4 @@ BorealisServer = _Class('BorealisServer')
 BorealisServerSpeakerStateHysteresisNotifier = _Class('BorealisServerSpeakerStateHysteresisNotifier')
 AVHapticClient = _Class('AVHapticClient')
 AVHapticSequenceEntry = _Class('AVHapticSequenceEntry')
+AVHapticPlayer = _Class('AVHapticPlayer')

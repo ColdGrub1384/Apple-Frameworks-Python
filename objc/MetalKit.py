@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'MetalKit' framework.
 '''

@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'Combine' framework.
 '''
@@ -16,6 +15,6 @@ def _Class(name):
         return None
     
     
-Combine.DebugHook = _Class('Combine.DebugHook')
-Combine.AnyCancellable = _Class('Combine.AnyCancellable')
-Combine.ObservableObjectPublisher = _Class('Combine.ObservableObjectPublisher')
+DebugHook = _Class('Combine.DebugHook')
+AnyCancellable = _Class('Combine.AnyCancellable')
+ObservableObjectPublisher = _Class('Combine.ObservableObjectPublisher')

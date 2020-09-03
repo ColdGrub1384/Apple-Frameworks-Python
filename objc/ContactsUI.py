@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'ContactsUI' framework.
 '''
@@ -373,9 +372,9 @@ CNVisualIdentityEditablePrimaryAvatarTextField = _Class('CNVisualIdentityEditabl
 CNPostalAddressEditorView = _Class('CNPostalAddressEditorView')
 CNActionView = _Class('CNActionView')
 CNContactPhotoView = _Class('CNContactPhotoView')
-CNVisualIdentityItemEditorSegmentedControl = _Class('CNVisualIdentityItemEditorSegmentedControl')
 CNPhotoPickerHeaderViewTextField = _Class('CNPhotoPickerHeaderViewTextField')
 CNTextField = _Class('CNTextField')
+CNVisualIdentityItemEditorSegmentedControl = _Class('CNVisualIdentityItemEditorSegmentedControl')
 CNPhotoPickerActionButton = _Class('CNPhotoPickerActionButton')
 CNPhotoPickerHeaderButton = _Class('CNPhotoPickerHeaderButton')
 CNTransportButton = _Class('CNTransportButton')

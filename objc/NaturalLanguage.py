@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'NaturalLanguage' framework.
 '''

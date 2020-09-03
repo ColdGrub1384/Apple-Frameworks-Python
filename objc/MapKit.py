@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'MapKit' framework.
 '''
@@ -227,8 +226,8 @@ MKEmptyTextAttachment = _Class('MKEmptyTextAttachment')
 MKUserTrackingBarButtonItem = _Class('MKUserTrackingBarButtonItem')
 MKTiltGestureRecognizer = _Class('MKTiltGestureRecognizer')
 MKVariableDelayTapRecognizer = _Class('MKVariableDelayTapRecognizer')
-MKUserLocationHeadingConeLayer = _Class('MKUserLocationHeadingConeLayer')
 MKLayer = _Class('MKLayer')
+MKUserLocationHeadingConeLayer = _Class('MKUserLocationHeadingConeLayer')
 MKUserLocationHeadingArrowLayer = _Class('MKUserLocationHeadingArrowLayer')
 MKDistanceFormatter = _Class('MKDistanceFormatter')
 MKSmallCalloutView = _Class('MKSmallCalloutView')

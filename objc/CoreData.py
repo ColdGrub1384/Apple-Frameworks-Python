@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'CoreData' framework.
 '''
@@ -364,7 +363,6 @@ NSFetchRequestExpression = _Class('NSFetchRequestExpression')
 NSCKRecordZoneQueryCursorTransformer = _Class('NSCKRecordZoneQueryCursorTransformer')
 NSCKRecordZoneQueryPredicateTransformer = _Class('NSCKRecordZoneQueryPredicateTransformer')
 PFCloudKitMetadataValueTransformer = _Class('PFCloudKitMetadataValueTransformer')
-PFUbiquityFileCoordinator = _Class('PFUbiquityFileCoordinator')
 NSManagedObject = _Class('NSManagedObject')
 NSCKExportOperation = _Class('NSCKExportOperation')
 NSCKExportMetadata = _Class('NSCKExportMetadata')
@@ -387,6 +385,7 @@ NSCKHistoryAnalyzerState = _Class('NSCKHistoryAnalyzerState')
 NSCKRecordZoneMetadata = _Class('NSCKRecordZoneMetadata')
 NSCKEvent = _Class('NSCKEvent')
 NSCKRecordMetadata = _Class('NSCKRecordMetadata')
+PFUbiquityFileCoordinator = _Class('PFUbiquityFileCoordinator')
 PFUbiquityImportOperation = _Class('PFUbiquityImportOperation')
 PFUbiquityBaselineOperation = _Class('PFUbiquityBaselineOperation')
 PFUbiquityBaselineRecoveryOperation = _Class('PFUbiquityBaselineRecoveryOperation')

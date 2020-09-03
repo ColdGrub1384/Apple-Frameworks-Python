@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'CallKit' framework.
 '''
@@ -96,10 +95,10 @@ CXRemoveVoicemailAction = _Class('CXRemoveVoicemailAction')
 CXSetTrashedVoicemailAction = _Class('CXSetTrashedVoicemailAction')
 CXHandle = _Class('CXHandle')
 CXCallDirectoryNSExtensionManager = _Class('CXCallDirectoryNSExtensionManager')
+CXCallObserverXPCClient = _Class('CXCallObserverXPCClient')
+CXCallObserver = _Class('CXCallObserver')
 CXCallDirectoryExtensionContext = _Class('CXCallDirectoryExtensionContext')
 CXCallDirectoryExtensionHostContext = _Class('CXCallDirectoryExtensionHostContext')
 CXProviderExtensionContext = _Class('CXProviderExtensionContext')
 CXProviderExtensionVendorContext = _Class('CXProviderExtensionVendorContext')
 CXProviderExtensionHostContext = _Class('CXProviderExtensionHostContext')
-CXCallObserverXPCClient = _Class('CXCallObserverXPCClient')
-CXCallObserver = _Class('CXCallObserver')

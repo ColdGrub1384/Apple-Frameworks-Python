@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'WebKit' framework.
 '''
@@ -128,14 +127,14 @@ WKAutocorrectionContext = _Class('WKAutocorrectionContext')
 WKDataListTextSuggestion = _Class('WKDataListTextSuggestion')
 WebResource = _Class('WebResource')
 WebArchive = _Class('WebArchive')
+WKTextPlaceholder = _Class('WKTextPlaceholder')
 WKWebEvent = _Class('WKWebEvent')
 WKSyntheticFlagsChangedWebEvent = _Class('WKSyntheticFlagsChangedWebEvent')
-WKTextPlaceholder = _Class('WKTextPlaceholder')
-WKTextSelectionRect = _Class('WKTextSelectionRect')
-WKPreviewAction = _Class('WKPreviewAction')
 WKQuirkyNSUndoManager = _Class('WKQuirkyNSUndoManager')
-WKTextPosition = _Class('WKTextPosition')
+WKTextSelectionRect = _Class('WKTextSelectionRect')
 WKTextRange = _Class('WKTextRange')
+WKTextPosition = _Class('WKTextPosition')
+WKPreviewAction = _Class('WKPreviewAction')
 WKCustomProtocol = _Class('WKCustomProtocol')
 WKDownloadProgress = _Class('WKDownloadProgress')
 WKTouchActionGestureRecognizer = _Class('WKTouchActionGestureRecognizer')

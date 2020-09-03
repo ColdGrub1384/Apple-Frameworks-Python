@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'StoreKit' framework.
 '''
@@ -43,10 +42,6 @@ SKOverlayConfiguration = _Class('SKOverlayConfiguration')
 SKOverlayAppClipConfiguration = _Class('SKOverlayAppClipConfiguration')
 SKOverlayAppConfiguration = _Class('SKOverlayAppConfiguration')
 SKURLParserBagContract = _Class('SKURLParserBagContract')
-SKProductsResponseInternal = _Class('SKProductsResponseInternal')
-SKProductsResponse = _Class('SKProductsResponse')
-SKProductInternal = _Class('SKProductInternal')
-SKProduct = _Class('SKProduct')
 SKProductSubscriptionPeriod = _Class('SKProductSubscriptionPeriod')
 SKProductSubscriptionPeriodInternal = _Class('SKProductSubscriptionPeriodInternal')
 SKPaymentTransactionInternal = _Class('SKPaymentTransactionInternal')
@@ -63,6 +58,10 @@ SKDownload = _Class('SKDownload')
 SKDownloadInternal = _Class('SKDownloadInternal')
 SKProductDiscount = _Class('SKProductDiscount')
 SKProductDiscountInternal = _Class('SKProductDiscountInternal')
+SKProductInternal = _Class('SKProductInternal')
+SKProduct = _Class('SKProduct')
+SKProductsResponseInternal = _Class('SKProductsResponseInternal')
+SKProductsResponse = _Class('SKProductsResponse')
 SKProductsRequestInternal = _Class('SKProductsRequestInternal')
 SKRequestInternal = _Class('SKRequestInternal')
 SKRequest = _Class('SKRequest')

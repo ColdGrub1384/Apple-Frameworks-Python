@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'lib' framework.
 '''
@@ -664,7 +663,6 @@ NWConcrete_nw_connection = _Class('NWConcrete_nw_connection')
 NWConcrete_nw_protocol_options = _Class('NWConcrete_nw_protocol_options')
 NWConcrete_nw_resolver_config = _Class('NWConcrete_nw_resolver_config')
 NWConcrete_nw_protocol_definition = _Class('NWConcrete_nw_protocol_definition')
-NWConcrete_nw_activity = _Class('NWConcrete_nw_activity')
 NWConcrete_nw_interface = _Class('NWConcrete_nw_interface')
 NWConcrete_nw_endpoint = _Class('NWConcrete_nw_endpoint')
 NWOSSRVEndpoint = _Class('NWOSSRVEndpoint')
@@ -678,6 +676,7 @@ NWConcrete_nw_path_parameters = _Class('NWConcrete_nw_path_parameters')
 NWConcrete_nw_protocol_stack = _Class('NWConcrete_nw_protocol_stack')
 NWConcrete_nw_parameters = _Class('NWConcrete_nw_parameters')
 NWConcrete_nw_path_evaluator = _Class('NWConcrete_nw_path_evaluator')
+NWConcrete_nw_activity = _Class('NWConcrete_nw_activity')
 NWConcrete_nw_context = _Class('NWConcrete_nw_context')
 AccessibilitySupportOverrides = _Class('AccessibilitySupportOverrides')
 AXSpeechThread = _Class('AXSpeechThread')

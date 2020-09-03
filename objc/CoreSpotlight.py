@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'CoreSpotlight' framework.
 '''

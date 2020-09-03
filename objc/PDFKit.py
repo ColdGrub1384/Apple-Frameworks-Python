@@ -1,4 +1,3 @@
-
 '''
 Classes from the 'PDFKit' framework.
 '''
@@ -113,10 +112,10 @@ PDFRenderingPropertiesPrivate = _Class('PDFRenderingPropertiesPrivate')
 PDFPageViewAnnotationController = _Class('PDFPageViewAnnotationController')
 PDFPageViewAnnotationControllerPrivate = _Class('PDFPageViewAnnotationControllerPrivate')
 PDFTextSelectionRect = _Class('PDFTextSelectionRect')
+PDFTextRange = _Class('PDFTextRange')
+PDFTextPosition = _Class('PDFTextPosition')
 PDFHostExtensionContext = _Class('PDFHostExtensionContext')
 PDFExtensionContext = _Class('PDFExtensionContext')
-PDFTextPosition = _Class('PDFTextPosition')
-PDFTextRange = _Class('PDFTextRange')
 PDFPanGestureRecognizer = _Class('PDFPanGestureRecognizer')
 PDFPageLayerEffect = _Class('PDFPageLayerEffect')
 PDFPageLayerSelectionEffect = _Class('PDFPageLayerSelectionEffect')
