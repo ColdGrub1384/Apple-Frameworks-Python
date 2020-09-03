@@ -1,19 +1,20 @@
 '''
 Classes from the 'NetworkExtension' framework.
 '''
-    
+
 try:
     from rubicon.objc import ObjCClass
 except ValueError:
     def ObjCClass(name):
         return None
-        
+
+
 def _Class(name):
     try:
         return ObjCClass(name)
     except NameError:
         return None
-    
+
     
 NWTLSParameters = _Class('NWTLSParameters')
 NEFilterPacketContext = _Class('NEFilterPacketContext')

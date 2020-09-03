@@ -8,33 +8,35 @@ objc_getClassList = c.objc_getClassList
 objc_getClassList.restype = c_int
 objc_getClassList.argtypes = [c_void_p, c_int]
 
-count = objc_getClassList(None, 0)
-buffer = (c_void_p * count)()
-objc_getClassList(buffer, count)
-
 class_getName = c.class_getName
 class_getName.restype = c_char_p
 class_getName.argtypes = [c_void_p]
 
+# Get all classes
+count = objc_getClassList(None, 0)
+buffer = (c_void_p * count)()
+objc_getClassList(buffer, count)
+
+# Separate between public and private frameworks
 frameworks = {}
 private_frameworks = {}
 
 for i in range(count):
     n = class_getName(buffer[i])
-    n = n.decode()   
+    n = n.decode()      
     
     if n.startswith("_"):
-        continue
-    
-    _class = ObjCClass(n)
+        continue  
     
     try:
-        bundle = NSBundle.bundleForClass(_class)
+        _class = ObjCClass(n)   
     except NameError:
         continue
     
-    framework = bundle.bundleURL.lastPathComponent.split(".")[0]
+    bundle = NSBundle.bundleForClass(_class)
     
+    framework = bundle.bundleURL.lastPathComponent.split(".")[0]
+       
     _frameworks = frameworks
     
     if "PrivateFrameworks" in bundle.bundleURL.path and framework != "UIKitCore":
@@ -43,13 +45,24 @@ for i in range(count):
     if ".app" in bundle.bundleURL.path:
         _frameworks = private_frameworks
     
+    # UIKitCore == UIKit
     if framework == "UIKitCore":
         framework = "UIKit"
     
-    if framework not in frameworks:
+    if framework not in _frameworks:
         _frameworks[framework] = []
 
     _frameworks[framework].append(n)
+
+# Nobody imports UIFoundation for UIFont or CoreFoundation for NSData
+# I'm not sure if macOS has some cases like that with AppKit
+if "UIFoundation" in private_frameworks and "UIKit" in frameworks:
+    for _class in private_frameworks["UIFoundation"]:
+        frameworks["UIKit"].append(_class)
+
+if "CoreFoundation" in frameworks and "Foundation" in frameworks:
+    for _class in frameworks["CoreFoundation"]:
+        frameworks["Foundation"].append(_class)
 
 all = {**frameworks, **private_frameworks}
 
@@ -62,22 +75,24 @@ for framework in all:
         code = """'''
 Classes from the '{}' framework.
 '''
-    
+
 try:
     from rubicon.objc import ObjCClass
 except ValueError:
     def ObjCClass(name):
         return None
-        
+
+
 def _Class(name):
     try:
         return ObjCClass(name)
     except NameError:
         return None
-    
+
     """.format(framework)
         
         for _class in all[framework]:
             code += f"\n{_class.split('.')[-1]} = _Class('{_class}')"
-            
+        
+        code += "\n"
         f.write(code)

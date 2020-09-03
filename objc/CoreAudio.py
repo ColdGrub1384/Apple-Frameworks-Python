@@ -1,19 +1,20 @@
 '''
 Classes from the 'CoreAudio' framework.
 '''
-    
+
 try:
     from rubicon.objc import ObjCClass
 except ValueError:
     def ObjCClass(name):
         return None
-        
+
+
 def _Class(name):
     try:
         return ObjCClass(name)
     except NameError:
         return None
-    
+
     
 Core_Audio_Gateway = _Class('Core_Audio_Gateway')
 Core_Audio_Property_Listener_Gateway = _Class('Core_Audio_Property_Listener_Gateway')

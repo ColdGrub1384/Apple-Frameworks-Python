@@ -1,19 +1,20 @@
 '''
 Classes from the 'LinkPresentation' framework.
 '''
-    
+
 try:
     from rubicon.objc import ObjCClass
 except ValueError:
     def ObjCClass(name):
         return None
-        
+
+
 def _Class(name):
     try:
         return ObjCClass(name)
     except NameError:
         return None
-    
+
     
 LPMultipleMetadataPresentationTransformer = _Class('LPMultipleMetadataPresentationTransformer')
 LPLinkHTMLTextGenerator = _Class('LPLinkHTMLTextGenerator')

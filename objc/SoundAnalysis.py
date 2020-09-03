@@ -1,19 +1,20 @@
 '''
 Classes from the 'SoundAnalysis' framework.
 '''
-    
+
 try:
     from rubicon.objc import ObjCClass
 except ValueError:
     def ObjCClass(name):
         return None
-        
+
+
 def _Class(name):
     try:
         return ObjCClass(name)
     except NameError:
         return None
-    
+
     
 SNSoundPrint100kDoorKnockModel = _Class('SNSoundPrint100kDoorKnockModel')
 SNSoundPrint100kDoorKnockModelOutput = _Class('SNSoundPrint100kDoorKnockModelOutput')

@@ -1,19 +1,20 @@
 '''
 Classes from the 'QuartzCore' framework.
 '''
-    
+
 try:
     from rubicon.objc import ObjCClass
 except ValueError:
     def ObjCClass(name):
         return None
-        
+
+
 def _Class(name):
     try:
         return ObjCClass(name)
     except NameError:
         return None
-    
+
     
 CARenderer = _Class('CARenderer')
 CAStateController = _Class('CAStateController')

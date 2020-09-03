@@ -1,19 +1,20 @@
 '''
 Classes from the 'AVKit' framework.
 '''
-    
+
 try:
     from rubicon.objc import ObjCClass
 except ValueError:
     def ObjCClass(name):
         return None
-        
+
+
 def _Class(name):
     try:
         return ObjCClass(name)
     except NameError:
         return None
-    
+
     
 AVLayoutViewRowHead = _Class('AVLayoutViewRowHead')
 AVAirMessageResponse = _Class('AVAirMessageResponse')

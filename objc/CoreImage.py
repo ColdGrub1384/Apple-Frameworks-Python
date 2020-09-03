@@ -1,19 +1,20 @@
 '''
 Classes from the 'CoreImage' framework.
 '''
-    
+
 try:
     from rubicon.objc import ObjCClass
 except ValueError:
     def ObjCClass(name):
         return None
-        
+
+
 def _Class(name):
     try:
         return ObjCClass(name)
     except NameError:
         return None
-    
+
     
 InpaintingVImageWrapper = _Class('InpaintingVImageWrapper')
 CIKernelLibrary = _Class('CIKernelLibrary')

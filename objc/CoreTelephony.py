@@ -1,19 +1,20 @@
 '''
 Classes from the 'CoreTelephony' framework.
 '''
-    
+
 try:
     from rubicon.objc import ObjCClass
 except ValueError:
     def ObjCClass(name):
         return None
-        
+
+
 def _Class(name):
     try:
         return ObjCClass(name)
     except NameError:
         return None
-    
+
     
 CTDisplayPlanList = _Class('CTDisplayPlanList')
 CTDisplayPlan = _Class('CTDisplayPlan')
