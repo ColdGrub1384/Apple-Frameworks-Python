@@ -17,3 +17,4 @@ def _Class(name):
 
     
 CSDBThreadedRecordStore = _Class('CSDBThreadedRecordStore')
+_CSDBThreadObject = _Class('_CSDBThreadObject')

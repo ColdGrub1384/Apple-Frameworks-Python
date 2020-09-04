@@ -18,6 +18,7 @@ def _Class(name):
     
 AXElementFetcher = _Class('AXElementFetcher')
 AXElement = _Class('AXElement')
+__AXMVisionFeature_AXRuntime_super = _Class('__AXMVisionFeature_AXRuntime_super')
 AXMVisionFeature_AXRuntime = _Class('AXMVisionFeature_AXRuntime')
 AXMLElementCoagulation = _Class('AXMLElementCoagulation')
 AXMLElementGroup = _Class('AXMLElementGroup')

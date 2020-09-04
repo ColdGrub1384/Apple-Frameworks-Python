@@ -18,6 +18,7 @@ def _Class(name):
     
 SKCloudServiceController = _Class('SKCloudServiceController')
 SKOverlay = _Class('SKOverlay')
+_SKStoreProductActivityAnimationController = _Class('_SKStoreProductActivityAnimationController')
 SKAccountPageSpecifierProvider = _Class('SKAccountPageSpecifierProvider')
 SKPurchaseIntent = _Class('SKPurchaseIntent')
 SKPaymentQueueClient = _Class('SKPaymentQueueClient')

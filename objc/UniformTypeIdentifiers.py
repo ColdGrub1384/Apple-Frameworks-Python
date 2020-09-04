@@ -17,3 +17,7 @@ def _Class(name):
 
     
 UTType = _Class('UTType')
+_UTTaggedType = _Class('_UTTaggedType')
+_UTConstantType = _Class('_UTConstantType')
+_UTRuntimeConstantType = _Class('_UTRuntimeConstantType')
+_UTCoreType = _Class('_UTCoreType')

@@ -16,6 +16,7 @@ def _Class(name):
         return None
 
     
+_MSXPCRemoteProxy = _Class('_MSXPCRemoteProxy')
 MSCriterion = _Class('MSCriterion')
 MSIdleAutosaveItem = _Class('MSIdleAutosaveItem')
 MSEmailModel = _Class('MSEmailModel')

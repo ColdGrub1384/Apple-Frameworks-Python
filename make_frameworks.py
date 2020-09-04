@@ -1,5 +1,6 @@
 from ctypes import *
 from rubicon.objc.api import ObjCClass
+import sys
 
 NSBundle = ObjCClass("NSBundle")
 
@@ -25,14 +26,12 @@ for i in range(count):
     n = class_getName(buffer[i])
     n = n.decode()      
     
-    if n.startswith("_"):
-        continue  
-    
     try:
         _class = ObjCClass(n)   
     except NameError:
         continue
     
+    sys.__stdout__.write(n+"\n")
     bundle = NSBundle.bundleForClass(_class)
     
     framework = bundle.bundleURL.lastPathComponent.split(".")[0]
@@ -47,7 +46,7 @@ for i in range(count):
     
     # UIKitCore == UIKit
     if framework == "UIKitCore":
-        framework = "UIKit"
+        framework = "UIKit"   
     
     if framework not in _frameworks:
         _frameworks[framework] = []
@@ -62,6 +61,16 @@ if "UIFoundation" in private_frameworks and "UIKit" in frameworks:
 
 if "CoreFoundation" in frameworks and "Foundation" in frameworks:
     for _class in frameworks["CoreFoundation"]:
+        frameworks["Foundation"].append(_class)
+
+if "AVFAudio" in frameworks and "AVFCapture" in private_frameworks and "AVFCore" in private_frameworks:
+    frameworks["AVFoundation"] = []
+    
+    for _class in frameworks["AVFAudio"]+private_frameworks["AVFCore"]+private_frameworks["AVFCapture"]:
+        frameworks["AVFoundation"].append(_class)
+
+if "lib" in frameworks and "Foundation" in frameworks:
+    for _class in frameworks["lib"]:
         frameworks["Foundation"].append(_class)
 
 all = {**frameworks, **private_frameworks}

@@ -16,9 +16,11 @@ def _Class(name):
         return None
 
     
+_TtGC8TrueTime7GCDLockPS_10FrozenTime__ = _Class('_TtGC8TrueTime7GCDLockPS_10FrozenTime__')
 HostResolver = _Class('TrueTime.HostResolver')
 NTPConnection = _Class('TrueTime.NTPConnection')
 Reachability = _Class('TrueTime.Reachability')
+_TtGC8TrueTime7GCDLockGSqCS_13ReferenceTime__ = _Class('_TtGC8TrueTime7GCDLockGSqCS_13ReferenceTime__')
 NTPClient = _Class('TrueTime.NTPClient')
 PodsDummy_TrueTime = _Class('PodsDummy_TrueTime')
 NTPReferenceTime = _Class('NTPReferenceTime')

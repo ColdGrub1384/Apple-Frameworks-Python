@@ -17,6 +17,7 @@ def _Class(name):
 
     
 FTPasswordManager = _Class('FTPasswordManager')
+_FTPasswordManagerCachedAuthTokenInfo = _Class('_FTPasswordManagerCachedAuthTokenInfo')
 FTRegionSupport = _Class('FTRegionSupport')
 FTRegion = _Class('FTRegion')
 FTUserConfiguration = _Class('FTUserConfiguration')

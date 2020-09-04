@@ -18,6 +18,7 @@ def _Class(name):
     
 PBSessionRequester = _Class('PBSessionRequester')
 PBUnknownFields = _Class('PBUnknownFields')
+_PBProperty = _Class('_PBProperty')
 PBStreamReader = _Class('PBStreamReader')
 PBMessageStreamWriter = _Class('PBMessageStreamWriter')
 PBMessageStreamReader = _Class('PBMessageStreamReader')

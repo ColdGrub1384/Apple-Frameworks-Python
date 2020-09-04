@@ -18,4 +18,6 @@ def _Class(name):
     
 MDPathFilterGenerator = _Class('MDPathFilterGenerator')
 FilterElementDefinition = _Class('FilterElementDefinition')
+_MDPlistBytes = _Class('_MDPlistBytes')
+_MDMutablePlistBytes = _Class('_MDMutablePlistBytes')
 MDPathFilter = _Class('MDPathFilter')

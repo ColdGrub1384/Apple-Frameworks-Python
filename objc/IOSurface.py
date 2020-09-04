@@ -17,6 +17,7 @@ def _Class(name):
 
     
 IOSurfaceDebugDescription = _Class('IOSurfaceDebugDescription')
+_IOSurfaceDebugDescription = _Class('_IOSurfaceDebugDescription')
 IOSurfaceRemoteRemoteClient = _Class('IOSurfaceRemoteRemoteClient')
 IOSurfaceRemotePerSurfacePerClientState = _Class('IOSurfaceRemotePerSurfacePerClientState')
 IOSurfaceRemotePerSurfaceGlobalState = _Class('IOSurfaceRemotePerSurfaceGlobalState')

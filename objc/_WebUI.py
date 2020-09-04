@@ -19,6 +19,7 @@ def _Class(name):
 WBUFormAutoFillWhiteList = _Class('WBUFormAutoFillWhiteList')
 WBUGeneratedPasswordCredentialUpdater = _Class('WBUGeneratedPasswordCredentialUpdater')
 WBUGeneratedPasswordCredentialUpdateRequest = _Class('WBUGeneratedPasswordCredentialUpdateRequest')
+_WBUDynamicMeCard = _Class('_WBUDynamicMeCard')
 WBUFormAutoFillPrompt = _Class('WBUFormAutoFillPrompt')
 WBUAutoFillDisplayData = _Class('WBUAutoFillDisplayData')
 WebUIAlert = _Class('WebUIAlert')

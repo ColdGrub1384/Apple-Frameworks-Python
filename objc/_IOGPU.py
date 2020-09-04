@@ -19,6 +19,7 @@ def _Class(name):
 IOGPUMTLFence = _Class('IOGPUMTLFence')
 IOGPUMetalTextureLayout = _Class('IOGPUMetalTextureLayout')
 IOGPUMTLEvent = _Class('IOGPUMTLEvent')
+_IOGPUMetalMTLEvent = _Class('_IOGPUMetalMTLEvent')
 IOGPUMetalIndirectRenderCommand = _Class('IOGPUMetalIndirectRenderCommand')
 IOGPUMetalIndirectComputeCommand = _Class('IOGPUMetalIndirectComputeCommand')
 IOGPUMetalResourcePool = _Class('IOGPUMetalResourcePool')

@@ -17,6 +17,7 @@ def _Class(name):
 
     
 AVLayoutViewRowHead = _Class('AVLayoutViewRowHead')
+_AVBundle = _Class('_AVBundle')
 AVAirMessageResponse = _Class('AVAirMessageResponse')
 AVDisplayLink = _Class('AVDisplayLink')
 AVLayoutItemAttributes = _Class('AVLayoutItemAttributes')
@@ -125,6 +126,8 @@ AVStatusBarBackgroundGradientView = _Class('AVStatusBarBackgroundGradientView')
 AVPictureInPictureSampleBufferDisplayLayerHostView = _Class('AVPictureInPictureSampleBufferDisplayLayerHostView')
 AVPictureInPictureCALayerHostView = _Class('AVPictureInPictureCALayerHostView')
 AVVolumeWarningView = _Class('AVVolumeWarningView')
+__AVPlayerLayerView = _Class('__AVPlayerLayerView')
+_AVSimplePlayerLayerView = _Class('_AVSimplePlayerLayerView')
 AVPictureInPicturePlayerLayerView = _Class('AVPictureInPicturePlayerLayerView')
 AVPictureInPictureSampleBufferDisplayLayerView = _Class('AVPictureInPictureSampleBufferDisplayLayerView')
 AVTouchIgnoringView = _Class('AVTouchIgnoringView')

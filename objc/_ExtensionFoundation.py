@@ -16,6 +16,7 @@ def _Class(name):
         return None
 
     
+_EXExtensionPoint = _Class('_EXExtensionPoint')
 EXDefaults = _Class('EXDefaults')
 EXCacheBuilder = _Class('EXCacheBuilder')
 EXOSExtensionEnumerator = _Class('EXOSExtensionEnumerator')

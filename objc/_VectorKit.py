@@ -16,6 +16,7 @@ def _Class(name):
         return None
 
     
+_GGLDisplayLinkTarget = _Class('_GGLDisplayLinkTarget')
 VKLabelNavRouteEta = _Class('VKLabelNavRouteEta')
 VKOverlay = _Class('VKOverlay')
 VKCameraRegionRestriction = _Class('VKCameraRegionRestriction')
@@ -61,6 +62,7 @@ VKResourceManager = _Class('VKResourceManager')
 GlobeLineContainerDelegate = _Class('GlobeLineContainerDelegate')
 VKImage = _Class('VKImage')
 VKRouteLine = _Class('VKRouteLine')
+_MapEngineRenderQueueSource = _Class('_MapEngineRenderQueueSource')
 VKMapSnapshotCreator = _Class('VKMapSnapshotCreator')
 GGLImageCanvas = _Class('GGLImageCanvas')
 VKCustomFeature = _Class('VKCustomFeature')
@@ -153,6 +155,7 @@ VKCamera = _Class('VKCamera')
 VKSceneConfiguration = _Class('VKSceneConfiguration')
 VKSharedResourcesManager = _Class('VKSharedResourcesManager')
 VKSharedResources = _Class('VKSharedResources')
+_AnimationManagerRunner = _Class('_AnimationManagerRunner')
 VKPGenericShieldVariant = _Class('VKPGenericShieldVariant')
 VKPGenericShieldStylePack = _Class('VKPGenericShieldStylePack')
 VKPGenericShield = _Class('VKPGenericShield')

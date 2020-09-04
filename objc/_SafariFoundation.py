@@ -17,6 +17,7 @@ def _Class(name):
 
     
 SFSharablePassword = _Class('SFSharablePassword')
+_SFSharablePasswordEncryptionInformation = _Class('_SFSharablePasswordEncryptionInformation')
 SFAppAutoFillOneTimeCodeProvider = _Class('SFAppAutoFillOneTimeCodeProvider')
 SFSuggestedUser = _Class('SFSuggestedUser')
 SFCredentialProviderExtensionManager = _Class('SFCredentialProviderExtensionManager')

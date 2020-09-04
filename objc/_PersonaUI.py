@@ -19,6 +19,7 @@ def _Class(name):
 PRMonogramColor = _Class('PRMonogramColor')
 PRLikenessCache = _Class('PRLikenessCache')
 PRLikenessCacheContext = _Class('PRLikenessCacheContext')
+_PRMonogramFontSpec = _Class('_PRMonogramFontSpec')
 PRMonogram = _Class('PRMonogram')
 PRLocalization = _Class('PRLocalization')
 PRMonogramView = _Class('PRMonogramView')

@@ -124,6 +124,7 @@ SGCuratedChangeNotificationsCalendarListener = _Class('SGCuratedChangeNotificati
 SGCuratedChangeNotificationsAddressBookListener = _Class('SGCuratedChangeNotificationsAddressBookListener')
 SGDCloudKitSyncObserver = _Class('SGDCloudKitSyncObserver')
 SGDCloudKitSync = _Class('SGDCloudKitSync')
+_SGDCloudKitSyncPersistedState = _Class('_SGDCloudKitSyncPersistedState')
 SGStorageLocation = _Class('SGStorageLocation')
 SGDOMParser = _Class('SGDOMParser')
 SGNames = _Class('SGNames')

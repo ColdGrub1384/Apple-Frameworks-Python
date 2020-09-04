@@ -17,7 +17,13 @@ def _Class(name):
 
     
 OSLogCoder = _Class('OSLogCoder')
+__NSGlobalBlock__ = _Class('__NSGlobalBlock__')
+__NSAutoBlock__ = _Class('__NSAutoBlock__')
+__NSFinalizingBlock__ = _Class('__NSFinalizingBlock__')
+__NSMallocBlock__ = _Class('__NSMallocBlock__')
+__NSStackBlock__ = _Class('__NSStackBlock__')
 OS_xpc_payload = _Class('OS_xpc_payload')
+__NSBlockVariable__ = _Class('__NSBlockVariable__')
 OS_object = _Class('OS_object')
 OS_os_eventlink = _Class('OS_os_eventlink')
 OS_os_workgroup = _Class('OS_os_workgroup')

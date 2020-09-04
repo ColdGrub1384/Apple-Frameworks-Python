@@ -16,5 +16,6 @@ def _Class(name):
         return None
 
     
+__AXSpeechActionPublicImplementation_super = _Class('__AXSpeechActionPublicImplementation_super')
 AXSpeechActionPublicImplementation = _Class('AXSpeechActionPublicImplementation')
 AXSpeechPublicInterface = _Class('AXSpeechPublicInterface')

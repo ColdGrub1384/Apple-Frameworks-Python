@@ -18,6 +18,7 @@ def _Class(name):
     
 ECTransferMessageActionItem = _Class('ECTransferMessageActionItem')
 ECSubjectParser = _Class('ECSubjectParser')
+_ECSubjectFormatterContext = _Class('_ECSubjectFormatterContext')
 ECSubject = _Class('ECSubject')
 ECServerMessage = _Class('ECServerMessage')
 ECSecureMIMETrustEvaluation = _Class('ECSecureMIMETrustEvaluation')

@@ -16,7 +16,9 @@ def _Class(name):
         return None
 
     
+_EAEmailAddress = _Class('_EAEmailAddress')
 EAEmailAddressParser = _Class('EAEmailAddressParser')
 EAEmailAddressLists = _Class('EAEmailAddressLists')
 EAEmailAddressGenerator = _Class('EAEmailAddressGenerator')
+_EAEmailAddressSetEnumerator = _Class('_EAEmailAddressSetEnumerator')
 EAEmailAddressSet = _Class('EAEmailAddressSet')

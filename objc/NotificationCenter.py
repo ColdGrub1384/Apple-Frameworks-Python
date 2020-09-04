@@ -17,5 +17,11 @@ def _Class(name):
 
     
 NCWidgetMetrics = _Class('NCWidgetMetrics')
+_NCWidgetControllerRequestLimiter = _Class('_NCWidgetControllerRequestLimiter')
 NCWidgetController = _Class('NCWidgetController')
+_NCWidgetExtensionContext = _Class('_NCWidgetExtensionContext')
+_NCContentUnavailableViewWithButton = _Class('_NCContentUnavailableViewWithButton')
 NCSizeObservingView = _Class('NCSizeObservingView')
+_NCWidgetViewControllerView = _Class('_NCWidgetViewControllerView')
+_NCContentUnavailableView = _Class('_NCContentUnavailableView')
+_NCWidgetViewController = _Class('_NCWidgetViewController')

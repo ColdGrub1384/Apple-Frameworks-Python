@@ -66,6 +66,7 @@ AKAuthorizationScopeEditTableViewCell = _Class('AKAuthorizationScopeEditTableVie
 AKAuthorizationButton = _Class('AKAuthorizationButton')
 AKAuthorizationAppleIDButton = _Class('AKAuthorizationAppleIDButton')
 AKAuthorizationContinueButton = _Class('AKAuthorizationContinueButton')
+_AKInsetTextField = _Class('_AKInsetTextField')
 AKRoundedButton = _Class('AKRoundedButton')
 AKTextualLinkButton = _Class('AKTextualLinkButton')
 AKBasicLoginViewController = _Class('AKBasicLoginViewController')

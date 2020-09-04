@@ -19,6 +19,7 @@ def _Class(name):
 WBSPasswordAuditingEligibleDomainsManager = _Class('WBSPasswordAuditingEligibleDomainsManager')
 WBSPasswordManagerURL = _Class('WBSPasswordManagerURL')
 WBSSavedPasswordStore = _Class('WBSSavedPasswordStore')
+_WBSSavedPasswordPartialCredential = _Class('_WBSSavedPasswordPartialCredential')
 WBSPair = _Class('WBSPair')
 WBSSavedPassword = _Class('WBSSavedPassword')
 WBSSafariBookmarksSyncAgentProxy = _Class('WBSSafariBookmarksSyncAgentProxy')
