@@ -16,6 +16,7 @@ def _Class(name):
         return None
 
     
+IMSingletonProxy = _Class('IMSingletonProxy')
 IMAKAppleIDAuthenticationController = _Class('IMAKAppleIDAuthenticationController')
 IMFileTransfer = _Class('IMFileTransfer')
 IMGroupBlacklistManager = _Class('IMGroupBlacklistManager')
@@ -95,7 +96,6 @@ IMNicknameAvatarImage = _Class('IMNicknameAvatarImage')
 IMSandboxingUtils = _Class('IMSandboxingUtils')
 IMIDSUtilities = _Class('IMIDSUtilities')
 IMBagUtilities = _Class('IMBagUtilities')
-IMEventNotification = _Class('IMEventNotification')
 IMEventNotificationQueue = _Class('IMEventNotificationQueue')
 IMEventNotificationBroadcaster = _Class('IMEventNotificationBroadcaster')
 IMAutomaticEventNotificationQueue = _Class('IMAutomaticEventNotificationQueue')
@@ -162,6 +162,7 @@ IMEventListener = _Class('IMEventListener')
 IMNotificationCenterEventListener = _Class('IMNotificationCenterEventListener')
 IMEventListenerResponse = _Class('IMEventListenerResponse')
 IMDefaults = _Class('IMDefaults')
+IMEventNotification = _Class('IMEventNotification')
 IMSharedUtilitiesProtoCloudKitEncryptedMessageP2 = _Class('IMSharedUtilitiesProtoCloudKitEncryptedMessageP2')
 IMSharedUtilitiesProtoCloudKitEncryptedGroupAction = _Class('IMSharedUtilitiesProtoCloudKitEncryptedGroupAction')
 IMSharedUtilitiesProtoCloudKitEncryptedGroupTitleChange = _Class('IMSharedUtilitiesProtoCloudKitEncryptedGroupTitleChange')
@@ -169,4 +170,3 @@ IMSharedUtilitiesProtoCloudKitEncryptedParticipantChange = _Class('IMSharedUtili
 IMSharedUtilitiesProtoCloudKitEncryptedMessageAction = _Class('IMSharedUtilitiesProtoCloudKitEncryptedMessageAction')
 IMSharedUtilitiesProtoCloudKitEncryptedLocationShareStatusChange = _Class('IMSharedUtilitiesProtoCloudKitEncryptedLocationShareStatusChange')
 IMSharedUtilitiesProtoCloudKitEncryptedMessage = _Class('IMSharedUtilitiesProtoCloudKitEncryptedMessage')
-IMSingletonProxy = _Class('IMSingletonProxy')

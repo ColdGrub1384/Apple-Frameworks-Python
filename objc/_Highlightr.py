@@ -16,9 +16,9 @@ def _Class(name):
         return None
 
     
-HTMLUtils = _Class('Highlightr.HTMLUtils')
 PodsDummy_Highlightr = _Class('PodsDummy_Highlightr')
 HighlightHints = _Class('HighlightHints')
+HTMLUtils = _Class('Highlightr.HTMLUtils')
 Theme = _Class('Highlightr.Theme')
 Highlightr = _Class('Highlightr.Highlightr')
 CodeAttributedString = _Class('CodeAttributedString')

@@ -18,11 +18,11 @@ def _Class(name):
     
 _NSConstantDictionaryEnumerator = _Class('_NSConstantDictionaryEnumerator')
 _NSConstantArrayEnumerator = _Class('_NSConstantArrayEnumerator')
-_NSConstantDictionary = _Class('_NSConstantDictionary')
-_NSConstantDate = _Class('_NSConstantDate')
 _NSConstantData = _Class('_NSConstantData')
 _NSConstantNumber = _Class('_NSConstantNumber')
 _NSConstantNumberBool = _Class('_NSConstantNumberBool')
 _NSConstantNumberFloat = _Class('_NSConstantNumberFloat')
 _NSConstantNumberInt = _Class('_NSConstantNumberInt')
+_NSConstantDate = _Class('_NSConstantDate')
+_NSConstantDictionary = _Class('_NSConstantDictionary')
 _NSConstantArray = _Class('_NSConstantArray')

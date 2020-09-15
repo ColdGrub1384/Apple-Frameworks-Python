@@ -16,11 +16,13 @@ def _Class(name):
         return None
 
     
+MSVWeakProxy = _Class('MSVWeakProxy')
 MSVFinally = _Class('MSVFinally')
 MSVMultiCallback = _Class('MSVMultiCallback')
 MSVCallback = _Class('MSVCallback')
 MSVPair = _Class('MSVPair')
 MSVArtworkServiceResizeRequestDestination = _Class('MSVArtworkServiceResizeRequestDestination')
+MSVBlockGuard = _Class('MSVBlockGuard')
 _MSVStreamWriterPendingData = _Class('_MSVStreamWriterPendingData')
 MSVStreamWriter = _Class('MSVStreamWriter')
 MSVLRUDictionary = _Class('MSVLRUDictionary')
@@ -72,7 +74,6 @@ MSVArtworkServiceConversionRequest = _Class('MSVArtworkServiceConversionRequest'
 MSVBidirectionalDictionary = _Class('MSVBidirectionalDictionary')
 MSVMutableBidirectionalDictionary = _Class('MSVMutableBidirectionalDictionary')
 MSVLyricsTTMLParser = _Class('MSVLyricsTTMLParser')
-MSVBlockGuard = _Class('MSVBlockGuard')
 MSVOPACKDecoder = _Class('MSVOPACKDecoder')
 MSVOPACKEncoder = _Class('MSVOPACKEncoder')
 MSVSegmentedDecoder = _Class('MSVSegmentedDecoder')
@@ -82,4 +83,3 @@ MSVArtworkServiceOperation = _Class('MSVArtworkServiceOperation')
 MSVArtworkServiceConversionOperation = _Class('MSVArtworkServiceConversionOperation')
 MSVArtworkServiceResizeOperation = _Class('MSVArtworkServiceResizeOperation')
 MSVSQLRowEnumerator = _Class('MSVSQLRowEnumerator')
-MSVWeakProxy = _Class('MSVWeakProxy')

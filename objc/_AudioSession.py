@@ -19,5 +19,5 @@ def _Class(name):
 AVAudioSessionRouteDescription = _Class('AVAudioSessionRouteDescription')
 AVAudioSessionChannelDescription = _Class('AVAudioSessionChannelDescription')
 AVAudioSessionDataSourceDescription = _Class('AVAudioSessionDataSourceDescription')
-AVAudioSession = _Class('AVAudioSession')
 AVAudioSessionPortDescription = _Class('AVAudioSessionPortDescription')
+AVAudioSession = _Class('AVAudioSession')

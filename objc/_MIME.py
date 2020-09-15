@@ -16,6 +16,7 @@ def _Class(name):
         return None
 
     
+MFWeakProxy = _Class('MFWeakProxy')
 MFWeakReferenceHolder = _Class('MFWeakReferenceHolder')
 MFArrayDiff = _Class('MFArrayDiff')
 MFMutableMessageHeadersFactory = _Class('MFMutableMessageHeadersFactory')
@@ -59,8 +60,7 @@ MFConditionLock = _Class('MFConditionLock')
 MFRecursiveLock = _Class('MFRecursiveLock')
 MFLock = _Class('MFLock')
 _MFEmailSetEnumerator = _Class('_MFEmailSetEnumerator')
-MFWeakSet = _Class('MFWeakSet')
-MFEmailSet = _Class('MFEmailSet')
 MFData = _Class('MFData')
 MFMutableData = _Class('MFMutableData')
-MFWeakProxy = _Class('MFWeakProxy')
+MFWeakSet = _Class('MFWeakSet')
+MFEmailSet = _Class('MFEmailSet')

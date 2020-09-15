@@ -16,16 +16,16 @@ def _Class(name):
         return None
 
     
-MAXpcConnection = _Class('MAXpcConnection')
 MAProgressNotification = _Class('MAProgressNotification')
 MADownloadConfig = _Class('MADownloadConfig')
 MADownloadOptions = _Class('MADownloadOptions')
 MAMsuDownloadOptions = _Class('MAMsuDownloadOptions')
 MAAssetDiff = _Class('MAAssetDiff')
-MAXpcManager = _Class('MAXpcManager')
 ASAssetQuery = _Class('ASAssetQuery')
 ASAsset = _Class('ASAsset')
-MAAssetQuery = _Class('MAAssetQuery')
-MAAsset = _Class('MAAsset')
 MAAbsoluteAssetId = _Class('MAAbsoluteAssetId')
 MAProgressHandler = _Class('MAProgressHandler')
+MAAsset = _Class('MAAsset')
+MAXpcConnection = _Class('MAXpcConnection')
+MAXpcManager = _Class('MAXpcManager')
+MAAssetQuery = _Class('MAAssetQuery')

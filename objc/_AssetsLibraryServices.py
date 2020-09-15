@@ -16,6 +16,7 @@ def _Class(name):
         return None
 
     
+PLAutoBindingBlackholeProxy = _Class('PLAutoBindingBlackholeProxy')
 PLAppPrivateData = _Class('PLAppPrivateData')
 PLVolumeInfo = _Class('PLVolumeInfo')
 PLDiskController = _Class('PLDiskController')
@@ -101,4 +102,3 @@ PLLibraryServicesOperation = _Class('PLLibraryServicesOperation')
 PLUUIDString = _Class('PLUUIDString')
 PLSandboxedURL = _Class('PLSandboxedURL')
 PLXPCShMemData = _Class('PLXPCShMemData')
-PLAutoBindingBlackholeProxy = _Class('PLAutoBindingBlackholeProxy')

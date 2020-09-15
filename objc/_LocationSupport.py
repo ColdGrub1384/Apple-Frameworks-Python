@@ -16,6 +16,9 @@ def _Class(name):
         return None
 
     
+CLIntersiloProxy = _Class('CLIntersiloProxy')
+CLIntersiloProxyToInitiator = _Class('CLIntersiloProxyToInitiator')
+CLIntersiloProxyToRecipient = _Class('CLIntersiloProxyToRecipient')
 CLCppContainer = _Class('CLCppContainer')
 CLCppEncodableDataContainer = _Class('CLCppEncodableDataContainer')
 CLServiceVendor = _Class('CLServiceVendor')
@@ -44,6 +47,3 @@ CLSilo = _Class('CLSilo')
 CLDispatchSilo = _Class('CLDispatchSilo')
 CLTimeCoercibleDispatchSilo = _Class('CLTimeCoercibleDispatchSilo')
 CLRunLoopSilo = _Class('CLRunLoopSilo')
-CLIntersiloProxy = _Class('CLIntersiloProxy')
-CLIntersiloProxyToInitiator = _Class('CLIntersiloProxyToInitiator')
-CLIntersiloProxyToRecipient = _Class('CLIntersiloProxyToRecipient')

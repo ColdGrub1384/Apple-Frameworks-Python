@@ -17,5 +17,5 @@ def _Class(name):
 
     
 InputAssistantView = _Class('InputAssistant.InputAssistantView')
-_TtC14InputAssistantP33_CF5653D7F9C857AB4D914888CFAFA7D132InputAssistantCollectionViewCell = _Class('_TtC14InputAssistantP33_CF5653D7F9C857AB4D914888CFAFA7D132InputAssistantCollectionViewCell')
 InputAssistantCollectionView = _Class('InputAssistant.InputAssistantCollectionView')
+_TtC14InputAssistantP33_CF5653D7F9C857AB4D914888CFAFA7D132InputAssistantCollectionViewCell = _Class('_TtC14InputAssistantP33_CF5653D7F9C857AB4D914888CFAFA7D132InputAssistantCollectionViewCell')

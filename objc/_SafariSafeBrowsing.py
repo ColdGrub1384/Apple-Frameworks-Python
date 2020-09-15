@@ -16,9 +16,6 @@ def _Class(name):
         return None
 
     
-SSBServiceLookupResult = _Class('SSBServiceLookupResult')
-SSBLookupResult = _Class('SSBLookupResult')
-SSBLookupContext = _Class('SSBLookupContext')
 RemoteConfigurationController = _Class('RemoteConfigurationController')
 ProviderConfiguration = _Class('ProviderConfiguration')
 SSBDatabaseUpdateSupport = _Class('SSBDatabaseUpdateSupport')
@@ -27,3 +24,6 @@ SSBManagedConfigurationManager = _Class('SSBManagedConfigurationManager')
 _SSBServiceStatus = _Class('_SSBServiceStatus')
 SSBAvailability = _Class('SSBAvailability')
 _SSBDatabaseStatus = _Class('_SSBDatabaseStatus')
+SSBLookupResult = _Class('SSBLookupResult')
+SSBServiceLookupResult = _Class('SSBServiceLookupResult')
+SSBLookupContext = _Class('SSBLookupContext')

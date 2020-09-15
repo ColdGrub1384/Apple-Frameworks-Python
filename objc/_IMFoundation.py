@@ -16,6 +16,7 @@ def _Class(name):
         return None
 
     
+Broadcaster = _Class('Broadcaster')
 IMMessageContext = _Class('IMMessageContext')
 IMPowerAssertion = _Class('IMPowerAssertion')
 IMMultiDict = _Class('IMMultiDict')
@@ -74,12 +75,11 @@ IMTimingCollection = _Class('IMTimingCollection')
 _IMTimingInstance = _Class('_IMTimingInstance')
 IMWeakObjectCache = _Class('IMWeakObjectCache')
 IMDoubleLinkedList = _Class('IMDoubleLinkedList')
+IMDoubleLinkedListNode = _Class('IMDoubleLinkedListNode')
 IMInvocationTrampoline = _Class('IMInvocationTrampoline')
 IMCapturedInvocationTrampoline = _Class('IMCapturedInvocationTrampoline')
 IMDelayedInvocationTrampoline = _Class('IMDelayedInvocationTrampoline')
 IMThreadedInvocationTrampoline = _Class('IMThreadedInvocationTrampoline')
 IMSystemProxySettingsFetcher = _Class('IMSystemProxySettingsFetcher')
 IMPair = _Class('IMPair')
-IMDoubleLinkedListNode = _Class('IMDoubleLinkedListNode')
 IMFileManager = _Class('IMFileManager')
-Broadcaster = _Class('Broadcaster')

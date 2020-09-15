@@ -17,13 +17,13 @@ def _Class(name):
 
     
 MTCoreMaterialVisualStylingProvider = _Class('MTCoreMaterialVisualStylingProvider')
-MTVisualStyleSet = _Class('MTVisualStyleSet')
 MTMaterialSettingsInterpolator = _Class('MTMaterialSettingsInterpolator')
-MTCoreMaterialVisualStyling = _Class('MTCoreMaterialVisualStyling')
 MTPrunePromise = _Class('MTPrunePromise')
+MTCoreMaterialVisualStyling = _Class('MTCoreMaterialVisualStyling')
+MTVisualStyleSet = _Class('MTVisualStyleSet')
 MTColor = _Class('MTColor')
-MTWhiteColor = _Class('MTWhiteColor')
 MTRGBColor = _Class('MTRGBColor')
+MTWhiteColor = _Class('MTWhiteColor')
 MTTintingMaterialSettings = _Class('MTTintingMaterialSettings')
 MTTintingFilteringMaterialSettings = _Class('MTTintingFilteringMaterialSettings')
 MTRecipeMaterialSettings = _Class('MTRecipeMaterialSettings')

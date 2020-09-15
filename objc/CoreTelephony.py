@@ -16,6 +16,9 @@ def _Class(name):
         return None
 
     
+MuxNotificationSink = _Class('MuxNotificationSink')
+CoreTelephonyClientRemoteAsyncProxy = _Class('CoreTelephonyClientRemoteAsyncProxy')
+CoreTelephonyClientDelegateProxy = _Class('CoreTelephonyClientDelegateProxy')
 CTDisplayPlanList = _Class('CTDisplayPlanList')
 CTDisplayPlan = _Class('CTDisplayPlan')
 CTEmergencyModeResult = _Class('CTEmergencyModeResult')
@@ -138,6 +141,3 @@ CTTetheringStatus = _Class('CTTetheringStatus')
 CTPriVersion = _Class('CTPriVersion')
 CTSweetgumUsagePlanItemVoice = _Class('CTSweetgumUsagePlanItemVoice')
 CTSweetgumDataPlanMetricsError = _Class('CTSweetgumDataPlanMetricsError')
-MuxNotificationSink = _Class('MuxNotificationSink')
-CoreTelephonyClientRemoteAsyncProxy = _Class('CoreTelephonyClientRemoteAsyncProxy')
-CoreTelephonyClientDelegateProxy = _Class('CoreTelephonyClientDelegateProxy')

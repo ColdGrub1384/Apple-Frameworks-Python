@@ -16,6 +16,7 @@ def _Class(name):
         return None
 
     
+MRAVRoutingDiscoverySessionWrapper = _Class('MRAVRoutingDiscoverySessionWrapper')
 MRVirtualVoiceInputDeviceDescriptor = _Class('MRVirtualVoiceInputDeviceDescriptor')
 MRMutableVirtualVoiceInputDeviceDescriptor = _Class('MRMutableVirtualVoiceInputDeviceDescriptor')
 MRProtocolMessageLogger = _Class('MRProtocolMessageLogger')
@@ -62,7 +63,6 @@ MRTransactionPacketAccumulator = _Class('MRTransactionPacketAccumulator')
 MRTransactionPacket = _Class('MRTransactionPacket')
 MRContentItem = _Class('MRContentItem')
 MRCryptoPairingSessionBlockDelegate = _Class('MRCryptoPairingSessionBlockDelegate')
-MRBlockGuard = _Class('MRBlockGuard')
 MRAVRoutingClientController = _Class('MRAVRoutingClientController')
 MRAVRoutingDiscoverySessionConfiguration = _Class('MRAVRoutingDiscoverySessionConfiguration')
 MRCommandInfo = _Class('MRCommandInfo')
@@ -233,6 +233,7 @@ MRModifyOutputContextRequestMessage = _Class('MRModifyOutputContextRequestMessag
 MRClientUpdatesConfigMessage = _Class('MRClientUpdatesConfigMessage')
 MRPlaybackSession = _Class('MRPlaybackSession')
 MRLegacyController = _Class('MRLegacyController')
+MRBlockGuard = _Class('MRBlockGuard')
 _MRGameControllerMotionProtobuf = _Class('_MRGameControllerMotionProtobuf')
 _MRNowPlayingPlayerPathProtobuf = _Class('_MRNowPlayingPlayerPathProtobuf')
 _MRTransactionKeyProtobuf = _Class('_MRTransactionKeyProtobuf')
@@ -370,4 +371,3 @@ MRAVBufferedInputStream = _Class('MRAVBufferedInputStream')
 MRAVInputStream = _Class('MRAVInputStream')
 MRAVOutputDeviceInputStream = _Class('MRAVOutputDeviceInputStream')
 MRIDSInputStream = _Class('MRIDSInputStream')
-MRAVRoutingDiscoverySessionWrapper = _Class('MRAVRoutingDiscoverySessionWrapper')

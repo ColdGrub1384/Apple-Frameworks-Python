@@ -17,8 +17,8 @@ def _Class(name):
 
     
 EXRunningExtensionInfo = _Class('EXRunningExtensionInfo')
-EXConcreteExtensionContextVendor = _Class('EXConcreteExtensionContextVendor')
 EXSwiftUI_Subsystem = _Class('EXSwiftUI_Subsystem')
+EXConcreteExtensionContextVendor = _Class('EXConcreteExtensionContextVendor')
 _EXItemProviderSandboxedResource = _Class('_EXItemProviderSandboxedResource')
 _EXItemProviderCopyingLoadOperator = _Class('_EXItemProviderCopyingLoadOperator')
 _EXItemProviderExtensionVendorLoadOperator = _Class('_EXItemProviderExtensionVendorLoadOperator')

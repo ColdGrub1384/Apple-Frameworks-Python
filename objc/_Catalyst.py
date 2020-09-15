@@ -16,6 +16,7 @@ def _Class(name):
         return None
 
     
+_CATArbitratorResourceProxy = _Class('_CATArbitratorResourceProxy')
 _CATErrorBundleHelper = _Class('_CATErrorBundleHelper')
 _CATXPCBoostAssertion = _Class('_CATXPCBoostAssertion')
 CATTransition = _Class('CATTransition')
@@ -78,4 +79,3 @@ _CATBlockTaskOperation = _Class('_CATBlockTaskOperation')
 CATRemoteTaskOperation = _Class('CATRemoteTaskOperation')
 CATBatchRemoteTaskOperation = _Class('CATBatchRemoteTaskOperation')
 _CATTransportDidSendMessageOperation = _Class('_CATTransportDidSendMessageOperation')
-_CATArbitratorResourceProxy = _Class('_CATArbitratorResourceProxy')

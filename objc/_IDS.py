@@ -16,6 +16,7 @@ def _Class(name):
         return None
 
     
+IDSDaemonControllerForwarder = _Class('IDSDaemonControllerForwarder')
 IDSTransactionLogTaskHandler = _Class('IDSTransactionLogTaskHandler')
 IDSTransactionLogSyncTaskHandler = _Class('IDSTransactionLogSyncTaskHandler')
 IDSTransactionLogBaseTaskHandler = _Class('IDSTransactionLogBaseTaskHandler')
@@ -118,4 +119,3 @@ IDSDaemonController = _Class('IDSDaemonController')
 IDSContinuity = _Class('IDSContinuity')
 _IDSGenericCompletionHandler = _Class('_IDSGenericCompletionHandler')
 _IDSCompletionHandler = _Class('_IDSCompletionHandler')
-IDSDaemonControllerForwarder = _Class('IDSDaemonControllerForwarder')

@@ -16,14 +16,14 @@ def _Class(name):
         return None
 
     
+GSDaemonProxySync = _Class('GSDaemonProxySync')
 GSTemporaryStorage = _Class('GSTemporaryStorage')
-GSStorageManager = _Class('GSStorageManager')
 GSClientManagedLibrary = _Class('GSClientManagedLibrary')
-GSPermanentStorage = _Class('GSPermanentStorage')
-GSStagingPrefix = _Class('GSStagingPrefix')
-GSDocumentIdentifier = _Class('GSDocumentIdentifier')
 _CopyfileCallbackCtx = _Class('_CopyfileCallbackCtx')
 GSAddition = _Class('GSAddition')
+GSStagingPrefix = _Class('GSStagingPrefix')
+GSPermanentStorage = _Class('GSPermanentStorage')
+GSDocumentIdentifier = _Class('GSDocumentIdentifier')
+GSStorageManager = _Class('GSStorageManager')
 GSTemporaryAddtionEnumerator = _Class('GSTemporaryAddtionEnumerator')
 GSPermanentAdditionEnumerator = _Class('GSPermanentAdditionEnumerator')
-GSDaemonProxySync = _Class('GSDaemonProxySync')

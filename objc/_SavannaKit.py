@@ -17,7 +17,7 @@ def _Class(name):
 
     
 PodsDummy_SavannaKit = _Class('PodsDummy_SavannaKit')
-SyntaxTextViewLayoutManager = _Class('SavannaKit.SyntaxTextViewLayoutManager')
 LineNumberLayoutManager = _Class('SavannaKit.LineNumberLayoutManager')
+SyntaxTextViewLayoutManager = _Class('SavannaKit.SyntaxTextViewLayoutManager')
 SyntaxTextView = _Class('SavannaKit.SyntaxTextView')
 InnerTextView = _Class('SavannaKit.InnerTextView')

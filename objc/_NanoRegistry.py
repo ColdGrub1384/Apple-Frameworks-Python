@@ -16,6 +16,8 @@ def _Class(name):
         return None
 
     
+NRLoggingXPCProxy = _Class('NRLoggingXPCProxy')
+NRMockXPCProxy = _Class('NRMockXPCProxy')
 NRDevicePropertyDiffType = _Class('NRDevicePropertyDiffType')
 NRSystemVersionRequest = _Class('NRSystemVersionRequest')
 NRBypassQueue = _Class('NRBypassQueue')
@@ -92,5 +94,3 @@ NRPBTermsEvent = _Class('NRPBTermsEvent')
 NRTermsEvent = _Class('NRTermsEvent')
 NRNSXPCListener = _Class('NRNSXPCListener')
 NRKeyedUnarchiver = _Class('NRKeyedUnarchiver')
-NRLoggingXPCProxy = _Class('NRLoggingXPCProxy')
-NRMockXPCProxy = _Class('NRMockXPCProxy')
