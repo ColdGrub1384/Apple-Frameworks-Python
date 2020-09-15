@@ -101,7 +101,10 @@ def _Class(name):
     """.format(framework)
         
         for _class in all[framework]:
-            code += f"\n{_class.split('.')[-1]} = _Class('{_class}')"
+            python_name = _class.split('.')[-1]
+            python_name = python_name.replace("<", "_")
+            python_name = python_name.replace(">", "_")
+            code += f"\n{python_name} = _Class('{_class}')"
         
         code += "\n"
         f.write(code)
